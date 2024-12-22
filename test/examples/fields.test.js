@@ -1,7 +1,7 @@
 const { qase } = require("jest-qase-reporter/jest");
 const { markdownContent } = require("./markdownContent");
 
-describe("Example: fields.spec.js\tTest cases with field: Priority", () => {
+describe("Example: fields.test.js\tTest cases with field: Priority", () => {
   /*
    * Meta data such as Priority, Severity, Layer fields, Description, and  pre-conditions can be updated from code.
    * This enables you to manage test cases from code directly.
@@ -23,7 +23,7 @@ describe("Example: fields.spec.js\tTest cases with field: Priority", () => {
   });
 });
 
-describe("Example: fields.spec.js\tTest cases with field: Severity", () => {
+describe("Example: fields.test.js\tTest cases with field: Severity", () => {
   test("Severity = trivial", () => {
     qase.fields({ severity: "trivial" });
     expect(true).toBe(true);
@@ -55,7 +55,7 @@ describe("Example: fields.spec.js\tTest cases with field: Severity", () => {
   });
 });
 
-describe("Example: fields.spec.js\tTest cases with field: Layer", () => {
+describe("Example: fields.test.js\tTest cases with field: Layer", () => {
   test("Layer = e2e", () => {
     qase.fields({ layer: "e2e" });
     expect(true).toBe(true);
@@ -72,7 +72,7 @@ describe("Example: fields.spec.js\tTest cases with field: Layer", () => {
   });
 });
 
-describe("Example: fields.spec.js\tTest cases with Description, Pre & Post Conditions", () => {
+describe("Example: fields.test.js\tTest cases with Description, Pre & Post Conditions", () => {
   test("Description with Markdown Support", () => {
     qase.fields({ description: markdownContent });
     expect(true).toBe(true);

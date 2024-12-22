@@ -1,6 +1,6 @@
 const { qase } = require("jest-qase-reporter/jest");
 
-describe("Example: comment.spec.js", () => {
+describe("Example: comment.test.js", () => {
   test("A test case with qase.comment()", () => {
     /*
      * Please note, this comment is added to a Result, not to the Test case.

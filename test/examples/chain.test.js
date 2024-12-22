@@ -1,7 +1,7 @@
 const { qase } = require("jest-qase-reporter/jest");
 
 /*
-describe("Example: chain.spec.js", () => {
+describe("Example: chain.test.js", () => {
   test("Maintain your test meta-data from code", async () => {
     qase
       .title("Use qase annotation in a chain")

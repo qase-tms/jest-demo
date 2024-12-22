@@ -1,6 +1,6 @@
 const { qase } = require("jest-qase-reporter/jest");
 
-describe("Example: steps.spec.js", () => {
+describe("Example: steps.test.js", () => {
   test("A Test case with steps, updated from code", async () => {
     await qase.step("Initialize the environment", async () => {
       // Set up test environment

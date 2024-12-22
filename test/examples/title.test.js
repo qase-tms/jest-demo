@@ -1,6 +1,6 @@
 const { qase } = require("jest-qase-reporter/jest");
 
-describe("Example: title.spec.js", () => {
+describe("Example: title.test.js", () => {
   test("Test without qase.title() method", () => {
     /*
      * Here, we're are not using a qase.title() method

@@ -1,6 +1,6 @@
 const { qase } = require("jest-qase-reporter/jest");
 
-describe("Example: attach.spec.js", () => {
+describe("Example: attach.test.js", () => {
   test("Test result with attachment", async () => {
     /*
     // To attach a single file

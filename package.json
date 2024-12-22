@@ -1,0 +1,33 @@
+{
+  "name": "qase-jest",
+  "version": "2.0.3",
+  "description": "A demo repository with Examples, for troubleshooting problems and for feature requests.",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "QASE_MODE=testops npx jest test/examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cskmnrpt/qase-jest.git"
+  },
+  "keywords": [
+    "qase-jest",
+    "qaseio",
+    "qase-tms",
+    "qase-javascript"
+  ],
+  "author": "Qase Support",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/cskmnrpt/qase-jest/issues"
+  },
+  "homepage": "https://github.com/cskmnrpt/qase-jest#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-qase-reporter": "^2.0.3",
+    "prettier": "^3.4.2"
+  }
+}

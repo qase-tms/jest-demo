@@ -1,6 +1,6 @@
 const { qase } = require("jest-qase-reporter/jest");
 
-/*
+
 describe("Example: chain.test.js", () => {
   test("Maintain your test meta-data from code", async () => {
     qase
@@ -19,4 +19,4 @@ describe("Example: chain.test.js", () => {
       );
   });
 });
-*/
+
